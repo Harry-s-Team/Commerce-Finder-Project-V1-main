@@ -64,7 +64,7 @@ const callGenerateEndpoint = async () => {
   <div className="output">
     <div className="output-header-container">
       <div className="output-header">
-        <h3> Product Source </h3>
+        <h3> Lowest price on sale right now </h3>
       </div>
     </div>
     
