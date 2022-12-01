@@ -48,7 +48,7 @@ const callGenerateEndpoint = async () => {
                 <div className="prompt-container">
                 <textarea
   className="prompt-box"
-  placeholder="Find me the cheapest {exact product name} for sale and include the website link...."
+  placeholder="Find me the cheapest {product name} for sale...."
   value={userInput}
   onChange={onUserChangedText}
 />
