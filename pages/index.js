@@ -34,7 +34,7 @@ const callGenerateEndpoint = async () => {
   return (
     <div className="root">
       <Head>
-        <title>Get a date</title>
+        <title>Find a product</title>
       </Head>
       <div className="container">
         <div className="header">
@@ -48,7 +48,7 @@ const callGenerateEndpoint = async () => {
                 <div className="prompt-container">
                 <textarea
   className="prompt-box"
-  placeholder="Find me the cheapest {product name} for sale and include the website link...."
+  placeholder="Find me the cheapest {exact product name} for sale and include the website link...."
   value={userInput}
   onChange={onUserChangedText}
 />
