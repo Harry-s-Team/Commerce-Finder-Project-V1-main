@@ -2,6 +2,21 @@ import { useState } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 
+// Create a function that will be called when the link is clicked
+function showConfetti() {
+  // Get the link element that was clicked
+  var link = document.querySelector("#confetti-link");
+  // Add a click event listener to the link
+  link.addEventListener("click", function() {
+    // Create a new element that will hold the confetti animation
+    var confettiElement = document.createElement("div");
+    // Set the CSS class for the confetti element
+    confettiElement.classList.add("confetti");
+    // Add the confetti element to the page
+    document.body.appendChild(confettiElement);
+  });
+}
+
 
 const Home = () => {
   const [userInput, setUserInput] = useState('');
@@ -61,6 +76,13 @@ const callGenerateEndpoint = async () => {
       </div>
     </a>
   </div>
+
+  .confetti {
+  /* Add styles for the confetti animation here */
+}
+
+<a href="whatsapp://send?text=Write you best email: https://www.salesmail.ml/" id="confetti-link">Share on WhatsApp</a>
+
 
   <div>
 <a href="whatsapp://send?text=Write you best email: https://www.salesmail.ml/">Share on WhatsApp</a>
