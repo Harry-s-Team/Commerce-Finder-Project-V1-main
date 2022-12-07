@@ -172,7 +172,7 @@ textarea {
 .generate-button {
     place-content: flex-start;
     align-items: flex-start;
-    background-color: #35893b;
+    background-color: #5c913b;
     border-radius: 100px;
     display: flex;
     flex: 0 0 auto;
@@ -212,7 +212,7 @@ textarea {
     font-style: normal;
     font-weight: 400;
     line-height: 1.4em;
-    color: #35893b;
+    color: #5c913b;
 }
 
 .badge-container {
