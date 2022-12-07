@@ -63,19 +63,9 @@ const callGenerateEndpoint = async () => {
     </a>
   </div>
 
-  <script>
-function shareOnWhatsApp() {
-  // Open a new window with the WhatsApp sharing URL
-  window.open('whatsapp://send?text=Check out this website: www.yoursite.com', '_blank');
-
-  // Give the user their reward
-  alert('Thank you for sharing! Here is your reward...');
-}
-</script>
-
-<button onclick="shareOnWhatsApp()">
-  Share on WhatsApp to get your reward
-</button>
+  <div>
+<a href="whatsapp://send?text=Write you best email: www.yourwebsite.com">Share on WhatsApp</a>
+</div>
 
 
   {apiOutput && (
