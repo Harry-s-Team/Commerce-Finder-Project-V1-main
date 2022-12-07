@@ -3,6 +3,8 @@ import Head from 'next/head';
 import Image from 'next/image';
 
 const analytics = require('@vercel/analytics');
+const analytics = analytics.track('pageview')
+
 
 // Use the analytics module here...
 
