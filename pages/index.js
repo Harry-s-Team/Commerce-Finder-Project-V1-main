@@ -43,14 +43,14 @@ const callGenerateEndpoint = async () => {
             <h1>Find a Gift this Christmas</h1>
           </div>
           <div className="header-subtitle">
-            <h2> ( e.g. Give me a list of gift ideas for my co worker. We work in HR together. | Give me a gift idea for my 18-year-old son for Christmas. He likes sports and hanging out with his friends. )
+            <h2> ( e.g. Give me a list of gift ideas for my co worker. We work in HR together. Give me a gift idea for my 18-year-old son for Christmas. He likes sports and hanging out with his friends. )
             </h2>
           </div>
         </div>
                 <div className="prompt-container">
                 <textarea
   className="prompt-box"
-  placeholder="My company develops an AI-powered proactive health and safety technology that enables an injury-free industrial workplace. Write me a hyper-personalised email to an MQL of my company. Include a subject line...."
+  placeholder="Give me a list a gift idea for my uncle. He likes fishing and golf....."
   value={userInput}
   onChange={onUserChangedText}
 />
