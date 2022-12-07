@@ -7,9 +7,10 @@ export default function Document() {
         <meta property="og:title" content="Gift Ideas" key="title"/>
         <meta property="og:description" content="Find a Special Gift this Christmas" key="description"/>
         <meta
-          property="og: image" content="/Users/GPT3 Project/Personal-Shopper/solen-feyissa-LBNJi8qHIbA-unsplash.jpeg"
+          property="og: image"
+          content="/Users/GPT3 Project/Personal-Shopper/solen-feyissa-LBNJi8qHIbA-unsplash.jpeg"
         />
-        <meta name="twitter:card" content="solen-feyissa-LBNJi8qHIbA-unsplash.jpeg"></meta>
+        <meta name="twitter:card" content="summary_large_image"></meta>
       </Head>
       <body>
         <Main />
