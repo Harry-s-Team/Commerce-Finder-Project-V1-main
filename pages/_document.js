@@ -4,13 +4,13 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <meta property="og:title" content="SalesMail" key="title"/>
-        <meta property="og:description" content="Write your best email" key="description"/>
+        <meta property="" content="SalesMail" key="title"/>
+        <meta property="" content="Write your best email" key="description"/>
         <meta
           property=""
           content=""
         />
-        <meta name="twitter:card" content=""></meta>
+        <meta name="" content=""></meta>
       </Head>
       <body>
         <Main />
