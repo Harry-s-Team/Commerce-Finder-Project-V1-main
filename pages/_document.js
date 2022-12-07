@@ -10,7 +10,7 @@ export default function Document() {
           property="og: image"
           content="solen-feyissa-LBNJi8qHIbA-unsplash.jpeg"
         />
-        <meta name="twitter:card" content="summary_large_image"></meta>
+        <meta name="twitter:card" content="solen-feyissa-LBNJi8qHIbA-unsplash.jpeg"></meta>
       </Head>
       <body>
         <Main />
