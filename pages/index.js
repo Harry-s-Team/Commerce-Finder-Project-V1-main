@@ -50,7 +50,7 @@ const callGenerateEndpoint = async () => {
                 <div className="prompt-container">
                 <textarea
   className="prompt-box"
-  placeholder="Give me a list a gift idea for my uncle. He likes fishing and golf....."
+  placeholder="Give me a creative gift idea for my uncle. He likes fishing....."
   value={userInput}
   onChange={onUserChangedText}
 />
@@ -58,7 +58,7 @@ const callGenerateEndpoint = async () => {
     <a className={isGenerating ? 'generate-button loading' : 'generate-button'}
     onClick={callGenerateEndpoint}>
       <div className="generate">
-      {isGenerating ? <span class="loader"></span> : <p>Source Gifts</p>}
+      {isGenerating ? <span class="loader"></span> : <p>Source</p>}
       </div>
     </a>
   </div>
@@ -73,7 +73,7 @@ const callGenerateEndpoint = async () => {
   <div className="output">
     <div className="output-header-container">
       <div className="output-header">
-        <h3> Your Email </h3>
+        <h3> Gift Something Special </h3>
       </div>
     </div>
     
