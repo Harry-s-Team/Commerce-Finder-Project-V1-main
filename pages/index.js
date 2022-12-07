@@ -70,7 +70,7 @@ const callGenerateEndpoint = async () => {
   <div className="output">
     <div className="output-header-container">
       <div className="output-header">
-        <h3> Gift Something Special this Christmas 🎅🏻</h3>
+        <h3> Your Gift Ideas 🎅🏻</h3>
       </div>
     </div>
     
