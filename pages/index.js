@@ -76,14 +76,23 @@ const callGenerateEndpoint = async () => {
   </div>
 )}
 
-<div>
-<a href="https://wa.me/">Share this link</a>
-</div>
+<script>
+  function showShareLink() {
+    // Show the "Share on WhatsApp" link
+    document.getElementById('share-link').style.display = 'inline';
+  }
+</script>
 
+<p>Please share this page on WhatsApp to unlock a special offer:</p>
 
-<div>
-<a href="whatsapp://send?text={{Encoded_URL}}">Share on WhatsApp</a>
-</div>
+<a href="whatsapp://send?text={{Encoded_URL}}" onclick="showShareLink()">
+  Share on WhatsApp
+</a>
+
+<a id="share-link" style="display:none;" href="{{Special_Offer_URL}}">
+  Click here to claim your special offer
+</a>
+
 
 </div>
       </div>
