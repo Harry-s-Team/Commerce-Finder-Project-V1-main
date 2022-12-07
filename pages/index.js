@@ -34,7 +34,7 @@ const callGenerateEndpoint = async () => {
   return (
     <div className="root">
       <Head>
-        <title>Find a product</title>
+        <title>SalesMail</title>
       </Head>
       <div className="container">
         <div className="header">
@@ -42,14 +42,14 @@ const callGenerateEndpoint = async () => {
             <h1>Write your best email.</h1>
           </div>
           <div className="header-subtitle">
-            <h2> Write a personalised email to anyone! ( e.g. My company sells the targeted ads to a profiled audience. Write me a email to a sales prospect of my company. Include a subject line. )
+            <h2> ( e.g. My company sells the targeted ads to a profiled audience. Write me a personalised email to a sales prospect of my company. Include a subject line. )
             </h2>
           </div>
         </div>
                 <div className="prompt-container">
                 <textarea
   className="prompt-box"
-  placeholder="My company develops an AI-powered proactive health and safety technology that enables an injury-free industrial workplace. Write me a hyper-personalised email to an MQL of my company....."
+  placeholder="My company develops an AI-powered proactive health and safety technology that enables an injury-free industrial workplace. Write me a hyper-personalised email to an MQL of my company. Include a subject line...."
   value={userInput}
   onChange={onUserChangedText}
 />
