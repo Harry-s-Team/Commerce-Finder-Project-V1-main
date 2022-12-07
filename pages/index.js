@@ -5,7 +5,7 @@ import Image from 'next/image';
 const analytics = require('@vercel/analytics');
 
 // Use the analytics module here...
-analytics.track('pageview')
+
 
 const Home = () => {
   const [userInput, setUserInput] = useState('');
