@@ -207,6 +207,11 @@ textarea {
     cursor: default;
 }
 
+.whatsapp-link {
+
+    color:rgba(255, 255, 255, 0.75)
+}
+
 .badge-container {
     display: flex;
     bottom: 20px;
@@ -414,7 +419,3 @@ textarea {
     }
 }
 
-.whatsapp-link {
-
-    rgba(255, 255, 255, 0.75)
-}

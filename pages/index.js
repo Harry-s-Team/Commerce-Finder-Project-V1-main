@@ -58,7 +58,7 @@ const callGenerateEndpoint = async () => {
     <a className={isGenerating ? 'generate-button loading' : 'generate-button'}
     onClick={callGenerateEndpoint}>
       <div className="generate">
-      {isGenerating ? <span class="loader"></span> : <p>Source</p>}
+      {isGenerating ? <span class="loader"></span> : <p>Generate</p>}
       </div>
     </a>
   </div>
