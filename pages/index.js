@@ -42,7 +42,7 @@ const callGenerateEndpoint = async () => {
             <h1>Write your best email.</h1>
           </div>
           <div className="header-subtitle">
-            <h2> ( e.g. My company sells the targeted ads to a profiled audience. Write me a personalised email to a sales prospect of my company. Include a subject line. )
+            <h2> ( e.g. My company sells targeted ads to a profiled audience. Write me a personalised email to a sales prospect of my company. Include a subject line. )
             </h2>
           </div>
         </div>
