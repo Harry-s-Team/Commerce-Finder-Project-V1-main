@@ -80,6 +80,11 @@ const callGenerateEndpoint = async () => {
 <a href="https://wa.me/">Share this link</a>
 </div>
 
+
+<div>
+<a href="whatsapp://send?text={{Encoded_URL}}">Share on WhatsApp</a>
+</div>
+
 </div>
       </div>
       <div className="badge-container grow">
