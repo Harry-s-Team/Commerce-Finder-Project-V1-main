@@ -8,7 +8,7 @@ export default function Document() {
         <meta property="og:description" content="Write your best email" key="description"/>
         <meta
           property="og: image"
-          content="file:///Users/harryarkwright/Pictures/solen-feyissa-LBNJi8qHIbA-unsplash.jpeg"
+          content="solen-feyissa-LBNJi8qHIbA-unsplash.jpeg"
         />
         <meta name="twitter:card" content="summary_large_image"></meta>
       </Head>
