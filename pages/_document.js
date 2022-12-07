@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <meta property="og:title" content="FindaGift" key="title"/>
+        <meta property="og:title" content="Gift Ideas" key="title"/>
         <meta property="og:description" content="Find a Special Gift this Christmas" key="description"/>
         <meta
           property="og: image"
