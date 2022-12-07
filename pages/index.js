@@ -35,15 +35,15 @@ const callGenerateEndpoint = async () => {
   return (
     <div className="root">
       <Head>
-        <title>Personal Shopper</title>
+        <title>Gift Ideas</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Find a Product</h1>
+            <h1>Find a Gift this Christmas</h1>
           </div>
           <div className="header-subtitle">
-            <h2> ( e.g. My company sells targeted ads to a profiled audience. Write me a personalised email to a sales prospect of my company. Include a subject line. )
+            <h2> ( e.g. Give me a list of gift ideas for my co worker. We work in HR together. | Give me a gift idea for my 18-year-old son for Christmas. He likes sports and hanging out with his friends. )
             </h2>
           </div>
         </div>
@@ -58,7 +58,7 @@ const callGenerateEndpoint = async () => {
     <a className={isGenerating ? 'generate-button loading' : 'generate-button'}
     onClick={callGenerateEndpoint}>
       <div className="generate">
-      {isGenerating ? <span class="loader"></span> : <p>Generate</p>}
+      {isGenerating ? <span class="loader"></span> : <p>Source Gifts</p>}
       </div>
     </a>
   </div>
