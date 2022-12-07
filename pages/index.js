@@ -1,6 +1,18 @@
 import { useState } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
+import { Analytics } from '@vercel/analytics/react';
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
+  );
+}
+export default MyApp;
+
 
 
 
@@ -107,6 +119,7 @@ const callGenerateEndpoint = async () => {
 
   );
 };
+
 
 
 export default Home;
