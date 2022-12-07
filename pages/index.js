@@ -39,16 +39,17 @@ const callGenerateEndpoint = async () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Write your best email</h1>
+            <h1>Write your best email.</h1>
           </div>
           <div className="header-subtitle">
-            <h2> Write a personalised email to anyone! </h2>
+            <h2> Write a personalised email to anyone! ( e.g. My company sells the targeted delivery of ads to a profiled audience. Write me an email to a sales prospect of my company.  )
+            </h2>
           </div>
         </div>
                 <div className="prompt-container">
                 <textarea
   className="prompt-box"
-  placeholder="Write me a personalised email for a prospect in the technology industry...."
+  placeholder="My company develops an AI-powered proactive health and safety technology that enables an injury-free industrial workplace. Write me a hyper-personalised email to an MQL of my company....."
   value={userInput}
   onChange={onUserChangedText}
 />
@@ -56,7 +57,7 @@ const callGenerateEndpoint = async () => {
     <a className={isGenerating ? 'generate-button loading' : 'generate-button'}
     onClick={callGenerateEndpoint}>
       <div className="generate">
-      {isGenerating ? <span class="loader"></span> : <p>Source</p>}
+      {isGenerating ? <span class="loader"></span> : <p>Generate</p>}
       </div>
     </a>
   </div>
@@ -64,7 +65,7 @@ const callGenerateEndpoint = async () => {
   <div className="output">
     <div className="output-header-container">
       <div className="output-header">
-        <h3> Lowest price on sale right now </h3>
+        <h3> Your Email </h3>
       </div>
     </div>
     
