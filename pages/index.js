@@ -48,7 +48,7 @@ const callGenerateEndpoint = async () => {
             <h1>Find a Special Gift this Christmas 🎄</h1>
           </div>
           <div className="header-subtitle">
-            <h2> ( e.g. Give me a creative list of gift ideas for my co worker. We work in HR together / Give me a creative list of gift ideas for my 18-year-old son for Christmas. He likes sports and hanging out with his friends. )
+            <h2> ( e.g. Give me a creative list of gift ideas for my co-worker. We work in HR together / Give me a creative list of gift ideas for my 18-year-old son for Christmas. He likes sports and hanging out with his friends. )
             </h2>
           </div>
         </div>
@@ -109,6 +109,8 @@ const callGenerateEndpoint = async () => {
         </a>
       </div>
     </div>
+
+
 
   );
 };
