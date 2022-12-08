@@ -92,7 +92,7 @@ const callGenerateEndpoint = async () => {
 )}
 
 <div className="whatsapp-link">
-<a href="whatsapp://send?text=Find a Special Gift this Christmas: https://www.giftidea.ml/">Share on WhatsApp</a>
+<a href="whatsapp://send?text=Find a Special Gift this Christmas: https://www.giftidea.ml/">Share the Gift of Giving on WhatsApp</a>
 </div>
 
 </div>
