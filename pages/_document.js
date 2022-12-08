@@ -5,7 +5,7 @@ export default function Document() {
     <Html>
       <Head>
         <meta property="og:title" content="Gift Ideas" key="title"/>
-        <meta property="og:description" content="Find a Special Gift this Christmas" key="description"/>
+        <meta property="og:description" content="Find a Special Gift this Christmas 🎄" key="description"/>
         <meta
           property="og: image"
           content="/Users/GPT3 Project/Personal-Shopper/nguyen-dang-hoang-nhu-4LiIv59mw-4-unsplash.jpeg"
