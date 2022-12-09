@@ -4,8 +4,6 @@ import Image from 'next/image';
 
 const analytics = require('@vercel/analytics');
 
-
-
 // Use the analytics module here...
 
 
@@ -41,6 +39,17 @@ const callGenerateEndpoint = async () => {
     <div className="root">
       <Head>
         <title>Gift Ideas</title>
+
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EYEQPR4XTK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EYEQPR4XTK');
+</script>
+
       </Head>
       <div className="container">
         <div className="header">
