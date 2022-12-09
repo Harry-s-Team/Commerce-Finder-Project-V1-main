@@ -93,6 +93,25 @@ const callGenerateEndpoint = async () => {
 <a href="whatsapp://send?text=Find a Special Gift this Christmas: https://www.giftidea.ml/">Share the Gift of Giving on WhatsApp</a>
 </div>
 
+
+
+<div>
+  <button id="signup-button">Sign Up</button>
+  <form id="signup-form">
+    <label>Email: <input type="email" name="email" /></label>
+    <button type="submit">Submit</button>
+  </form>
+  <script>
+    // Add an event listener to the sign up button
+    document.getElementById('generate-button').addEventListener('click', function() {
+      // Show the sign up form
+      document.getElementById('generate-button').style.display = 'block';
+    });
+  </script>
+</div>
+
+
+
 </div>
       </div>
       <div className="badge-container grow">
