@@ -11,7 +11,7 @@ export default function Document() {
           content="/Users/GPT3 Project/Personal-Shopper/nguyen-dang-hoang-nhu-4LiIv59mw-4-unsplash.jpeg"
         />
         <meta name="twitter:card" content="summary_large_image"></meta>
-
+        
       </Head>
       <body>
         <Main />
