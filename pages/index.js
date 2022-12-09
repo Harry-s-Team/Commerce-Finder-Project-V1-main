@@ -103,10 +103,10 @@ const callGenerateEndpoint = async () => {
   </form>
   <script>
     // Add an event listener to the sign up button
-    document.getElementById('generate-button').addEventListener('click', function() {
+    document.getElementById('generate-button').addEventListener('click', function() 
       // Show the sign up form
       document.getElementById('generate-button').style.display = 'block';
-    });
+    );
   </script>
 </div>
 
