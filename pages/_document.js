@@ -8,7 +8,7 @@ export default function Document() {
         <meta property="og:description" content="Find a Special Gift this Christmas 🎄" key="description"/>
         <meta
           property="og: image"
-          content="/Users/GPT3 Project/Personal-Shopper/assets/nguyen-dang-hoang-nhu-4LiIv59mw-4-unsplash.jpeg"
+          content="/Users/GPT3 Project/Personal-Shopper/assets/Project Photo.jpeg"
         />
         <meta name="twitter:card" content="summary_large_image"></meta>
         
